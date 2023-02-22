@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{>header}}
+  <body>
+  
+    {{>navbar}}
+
+    <div class="container-fluid">
+      <h2>User Profile</h2>
+      {{!-- <img src="/images/profile.png" /> --}}
+      <img src="https://media.gettyimages.com/id/635926095/photo/leonardo-di-caprio.jpg?s=612x612&w=gi&k=20&c=hlxP94Qt0l1DqjEBu3UhiKNvcVWwFFC3ysZ0H1TwRS8=" />
+      
+      <h3>Name : {{user.NAME}}</h3>
+      <h3>Email : {{user.EMAIL}}</h3>
+    </div>
+  </body>
+</html>
